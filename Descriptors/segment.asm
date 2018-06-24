@@ -1,6 +1,6 @@
-.386p
+﻿.386p
 
-;տսեկ սեգմենտ
+;ստեկ սեգմենտ
 _stack segment use16 stack 'stack'
 	db 1024 dup(?)
 _stack ends
