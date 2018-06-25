@@ -58,7 +58,7 @@ _code segment use16 'code'
 			
 			jmp finish
 			
-second_case:
+	second_case:
 			;փոփոխենք GDT 12-երորդ descriptor-ը
 			
 			mov eax,dword ptr [eax+2]
@@ -71,7 +71,7 @@ second_case:
 			mov byte ptr [eax+5],10000100b
 			mov word ptr [eax+6],489h
 			
-	finish:	ret 
+		finish:	ret 
 		main endp
 	_code ends
 end main
